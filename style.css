@@ -1,0 +1,45 @@
+body {
+  background-color: pink;
+  }
+  
+.profile {
+color: grey;
+text-decoration: underline;
+text-decoration-color: lightpink;
+text-decoration-style: double;
+text-decoration-thickness: 4px;
+}
+
+p {
+color: red;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 250px;
+background-color: grey;
+}
+
+li {
+float: left;
+display: block;
+}
+
+li a {
+display: block;
+color: hotpink;
+padding: 9px 18px;
+text-decoration: none;
+}
+
+li a:hover {
+backgound-color: magenta;
+color: white;
+}
+
+.active {
+background-color: lightblue;
+color: white;
+}
