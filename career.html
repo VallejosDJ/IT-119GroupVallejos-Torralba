@@ -2,127 +2,124 @@
 <html>
 <head>
 <style>
-  body {
-  font-family: Arial, Helvetica, sans-serify;
+body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  }
-  html {
-  box-sizing: border-box;
-  }
-  *, *:before, *:after; {
-  box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-   }
-    .card {
-    box-shadow 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    }
-    
-   .title-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-    }
-    
-    .container {
-      padding: 0 16px;
-      }
-      
-     .container: :after, .row: :after {
-       content: "";
-       clear: both;
-       display: table;
-       }
-       
-       .title {
-        color: black;
-        }
-        
-        .button { 
-          borded: none;
-          outline: 0;
-          display: inline-block;
-          padding: 8px;
-          color: white;
-          background-color: #000;
-          text-align: center;
-          cursor: pointer;
-          width: 100%;
-          }
-          
-          .button: hover {
-           backgounr-color: #555;
-           }
-           
-           @media screen and (mad-width: 650px) {
-           .column {
-            width: 100%;
-            display: block;
-            }
-           }
-          
-  </style>
-</header>
+}
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
 <body>
-  <nav>
+        <nav>
 <div class="div-nav">
-  <ul class="nav">
-    <a class="active" href="profile.html"> < BACK TO PROFILE</a>
-  </ul>
+      <ul class="nav">
+        <a class="active" href="profile.html"> < BACK TO PROFILE</a>
+      </ul>
+    </div>
+
+<div class="about-section">
+  <h1>THIS IS MY</h1>
+  <h1><b>CAREER PAGE</h1>
 </div>
 
-<div class="title-section">
-  <h1> THIS IS MY </1>
-  <h1><b> CAREER PAGE </b></h1>
-  
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="webdeveloper.jpg" alt="web" style="width: 100%">
+      <img src="webdeveloper.jpg" alt="Web" style="width:100%">
       <div class="container">
-      <h2>Web Developer</h2>
-      <p> A web developer can defined as someone who is specialized in the development of web application and services such as websites, apps, and more
-          that run in a web browser. Web developers are increasingly in demand as companies try to improve their  digital presence and e-commerce functionalities.</p>
-      <p><button class="button">Like It</button></p>
+        <h2>Web Developer</h2>
+        <p>A web developer can be defined as someone who is specialized in the development of web applications and services such as websites, apps, and more that run in a web browser. Web developers are increasingly in demand as companies try to improve their digital presence and e-commerce functionalities.</p>
+        <p><button class="button">Contact</button></p>
       </div>
-     </div>
     </div>
-    
-    <div class="row">
+  </div>
+
+<div class="row">
   <div class="column">
     <div class="card">
-      <img src="gamedeveloper.jpg" alt="game" style="width: 100%">
+      <img src="gamedeveloper.jpg" alt="Web" style="width:100%">
       <div class="container">
-      <h2>Game Developer</h2>
-      <p>While the two terms are sometimes used interchangeably, game designer are typically responsible for the creative aspects of the game, and game developer
-        are involved with the coding and technical work of building a game. The term Game Developer can also refer to a gaming company.</p>
-      <p><button class="button">Like It</button></p>
+        <h2>Game Developer</h2>
+        <p>While the two terms are sometimes used interchangeably, game designers are typically responsible for the creative aspects of a game, and game developers are involved with the coding and technical work of building a game. The term “game developer” can also refer to a gaming company.</p>
+        <p><button class="button">Contact</button></p>
       </div>
-     </div>
     </div>
-    
-    <div class="row">
+  </div>
+
+<div class="row">
   <div class="column">
     <div class="card">
-      <img src="whitehat.png" alt="white" style="width: 100%">
+      <img src="whitehat.png" alt="Web" style="width:100%">
       <div class="container">
-      <h2>White Hat</h2>
-      <p> A white hat is an ethical security hacker. Ethical hacking is a term meant to imply a broader category than  just penetration testing. Under the 
-          owner's consent, white-hat hacker aim to identify any vulnerabilities the current system has. it is also A white hat hacker or ethical hacker is an
-           individual who users hacking  skills to  identify security vulnerabilities  in hardware, software or networks.</p>
-      <p><button class="button">Like It</button></p>
+        <h2>White Ham</h2>
+        <p>A white hat is an ethical security hacker. Ethical hacking is a term meant to imply a broader category than just penetration testing. Under the owner's consent, white-hat hackers aim to identify any vulnerabilities the current system has. it is also A white hat hacker or ethical hacker  is an individual who uses hacking skills to identify security vulnerabilities in hardware, software or networks.</p>
+        <p><button class="button">Contact</button></p>
       </div>
-     </div>
     </div>
-    
-    
+  </div>
+
 </body>
 </html>
